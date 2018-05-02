@@ -90,6 +90,7 @@ class PreventDamageToSourceByCardTypeEffect2 extends PreventAllDamageToSourceEff
     public PreventDamageToSourceByCardTypeEffect2(CardType cardT) {
         super(Duration.WhileOnBattlefield);
         cardType = cardT;
+        staticText = "Prevent all damage that would be dealt to {this} by artifact sources";
     }
 
     @Override
